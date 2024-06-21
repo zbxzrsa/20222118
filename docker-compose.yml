@@ -1,0 +1,6 @@
+ version: '3'
+ services:
+   server:
+     image: 2144768106/docker-ci-basic:latest
+     ports:
+       - 8082:80
